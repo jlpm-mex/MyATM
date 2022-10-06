@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="MIT MERN 2022" />
+  <img src="./.github/app.gif" alt="My ATM" />
 
   &#xa0;
 
@@ -9,13 +9,13 @@
 <h1 align="center">My ATM</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jlpm-mex/mit-mern-2022?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jlpm-mex/MyATM?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jlpm-mex/mit-mern-2022?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jlpm-mex/MyATM?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jlpm-mex/mit-mern-2022?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jlpm-mex/MyATM?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/jlpm-mex/mit-mern-2022?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/jlpm-mex/MyATM?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/mit-mern-2022?color=56BEB8" /> -->
 
@@ -46,44 +46,39 @@
 
 ## :dart: About ##
 
-Describe your project
+Ejercicio de la semana 15 del Mit full stack developer, donde se ponen en práctica los conocimientos de react aprendidos, la idea base era replicar el comportamiento de un cajero. Yo tome esa idea y le agregue mi toque personal permitiendo que el usuario identifique de una forma más clara cuando esta haciendo un retiro o un depósito y agregando una sección de balance donde es posible ver el historial de depósitos y retiros.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Depositos ilimitados;\
+:heavy_check_mark: Sobregiros de la cuenta protegidos;\
+:heavy_check_mark: Balance de las operaciones realizadas;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [http-server](https://www.npmjs.com/package/http-server) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/jlpm-mex/mit-mern-2022
+$ git clone https://github.com/jlpm-mex/MyATM
 
 # Access
-$ cd mit-mern-2022
-
-# Install dependencies
-$ yarn
+$ cd MyATM
 
 # Run the project
-$ yarn start
+$ http-server -p8080
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:8080>
 ```
 
 ## :memo: License ##
@@ -91,7 +86,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/jlpm-mex" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/jlpm-mex" target="_blank">Jose Luis Pino</a>
 
 &#xa0;
 
